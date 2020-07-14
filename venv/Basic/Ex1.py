@@ -1,5 +1,5 @@
 #תוכנה המקבלת יום חוד ושנה ומדפיסה אותו כתאריך
-day= int (input ("type the day"))
+day= int (input ("type the day."))
 #לא מקבל יום עד שהוא תקין.
 while day < 0 or day>31:
     day = int(input("type the  correct day"))
